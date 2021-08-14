@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/cda9bc1775.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav>
+       
+        <div class="header">
+            <p class="Cyber">Cyber</p>
+            <p class="World">World</p>
+        </div>
+<div class="newnav">
+    <div class="head"> <p class="Cyber">Cyber</p>
+        <p class="World">World</p></div>
+    <div><a href="#">Home</a></div>
+    <div><a href="#">About us</a></div>
+    <div><a href="#">Help</a></div>
+    <div><input type="text" placeholder="Search"></div>
+    <div><button>Search</button></div>
+    <div class="right"><a href="#" >Login</a></div>
+    <div><a href="#">Sign in</a></div>
+</div>
+        <input type="checkbox" id="toggelbar"></input>
+        <label for="togglebar" class="sidebaricontoggle"><i class="fas fa-bars iconmenu"></i></label>
+          <div class="sidemenubar">
+        <ul class="menu">
+            <li>Home</li>
+            <li>About Us</li>
+            <li>Help</li>
+            <li>Login</li>
+            <li>Sign Up</li>
+        </ul>
+   </div>
+    </nav>
+
+    <div class="navbar">
+        <div class="Hot"><a href="#">Hot Deals</a></div>
+        <div><a href="#">Laptops</a></div>
+        <div><a href="#">Cameras</a></div>
+        <div><a href="#">SmartPhones</a></div>
+        <div><a href="#">Tablets</a></div>
+        <div><a href="#">Speakers</a></div>
+        <div><a href="#">Earphones</a></div>
+    </div>
+<div class="title">
+    <div><h2>New Product</h2></div>
+    <div id="snackbar">Successfully added to cart</div>
+</div>
+    <div class="herounit">
+        <div class="cards">
+            <img src="./images/laptop.jpg" alt="Laptop">
+            <div class="container">
+                <h1 >HP Laptops</h1>
+                <p class="cost">$29.9</p>
+                <button onclick="myFun()">Add to Cart</button>
+            </div>
+        </div>
+        <div class="cards">
+            <img src="./images/camera.jpg" alt="Camera">
+            <div class="container">
+                <h1 class="title">Canon Cameras</h1>
+                <p class="cost">$21.9</p>
+                <button onclick="myFun()">Add to Cart</button>
+            </div>
+        </div>
+        <div class="cards">
+            <img src="./images/speakers.jpg" alt="Speaker">
+            <div class="container">
+                <h1 class="title">Sony Speakers</h1>
+                <p class="cost">$10.9</p>
+                <button onclick="myFun()" ><a href="#hashlink"></a>Add to Cart</a></button>
+            </div>
+        </div>
+        <div class="cards">
+            <img src="./images/tablet.jpg" alt="Tablet">
+            <div class="container">
+                <h1 class="title">Lenova Tablet</h1>
+                <p class="cost">$19.9</p>
+                <button onclick="myFun()">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        Copyrighr&copyCyberWorld 2021
+    </footer>
+
+    <script>
+        function myFun(){
+           var x=document.getElementById("snackbar");
+          x.className="show"
+          setTimeout(function(){x.className=x.className.replace("show","");},3000);
+               
+             }
+    </script>
+</body>
+</html>

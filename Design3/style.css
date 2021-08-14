@@ -1,0 +1,139 @@
+body{
+    background-color: brown;
+}
+.body{
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: white;
+    height: 100%;
+}
+header{
+    height:130px;
+    color: white;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.logo{
+    width: 210px;
+height: 120px;
+}
+
+.clgName{
+    font-size: 25px;
+    margin-bottom: 2px;
+    margin-top: 15px;
+}
+
+header>div>input{
+    margin-left: 50%;
+    width: 280px;
+    border-radius: 3px;
+    border:1px solid  gray;
+    margin-top: 5px;
+}
+.icongrp{
+margin-left:10%;
+display:flex;
+flex-direction: row;
+
+}
+.icon>img{
+    width:25px;
+    height: 25px;
+    margin-right: 8px;
+}
+.herounit{
+    margin-left: 17.5%;
+    margin-right: 17.5%;
+}
+.navbar{
+    background-color: rgb(88, 78, 78);
+    display: flex;
+    flex-direction: row;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding: 10px;
+    justify-content: flex-start;
+    padding-left: 0px;
+}
+.nav1>a{
+    text-decoration: none;
+    background-color: rgb(88, 78, 78);
+    color:white;
+    padding: 10px;
+    border-right: 1px solid grey;
+}
+.nav1>a:hover{
+    background-color: beige;
+    color: black;
+}
+.home>a{
+    background-color: red;
+    text-decoration: none;
+    color:white;
+    padding: 10px;
+}
+.banner>img{
+    width:100%;
+    height: 220px;
+}
+.content{
+    display: flex;
+    flex-direction:row;
+    background-color: aliceblue;
+    padding-bottom: 4%;
+}
+.introduction1{
+ width:50%;
+ margin-left:8px;
+ margin-right: 4px;
+}
+.introduction2{
+    width:50%;
+    margin-left:4px;
+    margin-right: 8px;
+}
+.introduction1>h2{
+color:red;
+}
+.introduction2>h2{
+    color:red; 
+}
+.introduction1>img{
+    width:210px;
+    height:140px;
+   margin-right:4px;
+   float:left;
+   border-radius: 5px;
+   border: 1px solid black;
+}
+.introduction2>img{
+    width:208px;
+    height:140px;
+    margin-right:4px;
+   float:left;
+   border-radius: 5px;
+   border: 1px solid black;
+}
+footer{
+    position: adjuscent;
+    background-color: rgb(88, 78, 78);
+    margin-top:0px;
+    padding: 1px;
+    color: azure;
+    font-size: larger;
+    text-align: center;
+}
+    
+.introduction1>div{
+margin-left: 3px;
+text-align: justify;
+}
+.introduction2>div{
+    margin-left: 3px;
+    text-align: justify;
+    
+    }
